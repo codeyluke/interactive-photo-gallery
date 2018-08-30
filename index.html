@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Add the CSS for the jQuery then the main.css-->
+  <link rel="stylesheet" href="js/lightbox/css/lightbox.min.css">
+  <!-- Adding CDN in case the file fails -->
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main>
+    <input type="search" id="search" placeholder="Search...">
+    <section>
+      <!-- Photo 1 -->
+      <a href="images/01.jpg" data-lightbox="gallery" data-alt="Hay Bales" data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+        <img src="images/thumbnails/01.jpg" alt="Hay Bales">
+      </a>
+      <!-- Photo 2 -->
+      <a href="images/02.jpg" data-lightbox="gallery" data-title="The lake was so calm today. We had a great view of the snow on the mountains from here." data-alt="Lake">
+        <img src="images/thumbnails/02.jpg" alt="Lake">
+      </a>
+      <!-- Photo 3 -->
+      <a href="images/03.jpg" data-lightbox="gallery" data-title="I hiked to the top of the mountain and got this picture of the canyon and trees below." data-alt="Canyon">
+        <img src="images/thumbnails/03.jpg" alt="Canyon">
+      </a>
+      <!-- Photo 4 -->
+      <a href="images/04.jpg" data-lightbox="gallery" data-title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today." data-alt="Iceberg">
+        <img src="images/thumbnails/04.jpg" alt="Iceberg">
+      </a>
+      <!-- Photo 5 -->
+      <a href="images/05.jpg" data-lightbox="gallery" data-title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons." data-alt="Desert">
+        <img src="images/thumbnails/05.jpg" alt="Desert">
+      </a>
+      <!-- Photo 6 -->
+      <a href="images/06.jpg" data-lightbox="gallery" data-title="Fall is coming, I love when the leaves on the trees start to change color." data-alt="Fall">
+        <img src="images/thumbnails/06.jpg" alt="Fall">
+      </a>
+      <!-- Photo 7 -->
+      <a href="images/07.jpg" data-lightbox="gallery" data-title="I drove past this plantation yesterday, everything is so green!" data-alt="Plantation">
+        <img src="images/thumbnails/07.jpg" alt="Plantation">
+      </a>
+      <!-- Photo 8 -->
+      <a href="images/08.jpg" data-lightbox="gallery" data-title="My summer vacation to the Oregon Coast. I love the sandy dunes!" data-alt="Dunes">
+        <img src="images/thumbnails/08.jpg" alt="Dunes">
+      </a>
+      <!-- Photo 9 -->
+      <a href="images/09.jpg" data-lightbox="gallery" data-title="We enjoyed a quiet stroll down this countryside lane." data-alt="Countryside Lane">
+        <img src="images/thumbnails/09.jpg" alt="Countryside Lane">
+      </a>
+      <!-- Photo 10 -->
+      <a href="images/10.jpg" data-lightbox="gallery" data-title="Sunset at the coast! The sky turned a lovely shade of orange." data-alt="Sunset">
+        <img src="images/thumbnails/10.jpg" alt="Sunset">
+      </a>
+      <!-- Photo 11 -->
+      <a href="images/11.jpg" data-lightbox="gallery" data-title="I did a tour of a cave today and the view of the landscape below was breathtaking." data-alt="Cave">
+        <img src="images/thumbnails/11.jpg" alt="Cave">
+      </a>
+      <!-- Photo 12 -->
+      <a href="images/12.jpg" data-lightbox="gallery" data-title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in." data-alt="Bluebells">
+        <img src="images/thumbnails/12.jpg" alt="Bluebells">
+      </a>
+    </section>
+  </main>
+<!-- ==============================
+ Scripts
+=================================== -->
+  <!-- Using the packaged file by the Lokesh (Lightbox) & his CDN incase local drive fails -->
+  <!-- Using Lokesh plugins for the jQuery-->
+  <script src="js/lightbox/js/lightbox-plus-jquery.min.js"></script>
+  <!-- CDN in case the file fails -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
